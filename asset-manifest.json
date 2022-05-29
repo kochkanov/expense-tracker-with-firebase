@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/expense-tracker-with-firebase/static/css/main.e3682ba9.css",
+    "main.js": "/expense-tracker-with-firebase/static/js/main.761ba9ab.js",
+    "index.html": "/expense-tracker-with-firebase/index.html",
+    "main.e3682ba9.css.map": "/expense-tracker-with-firebase/static/css/main.e3682ba9.css.map",
+    "main.761ba9ab.js.map": "/expense-tracker-with-firebase/static/js/main.761ba9ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3682ba9.css",
+    "static/js/main.761ba9ab.js"
+  ]
+}
