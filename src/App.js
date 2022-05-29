@@ -51,7 +51,7 @@ function App() {
   async function saveDataToList(objectWithId) {
     console.log(objectWithId);
     try {
-      const response = await fetch(
+      await fetch(
         "https://items-3bc73-default-rtdb.firebaseio.com/items.json",
         {
           method: "POST",
@@ -63,7 +63,7 @@ function App() {
       );
       notify("POST sended");
 
-      const data = await response.json();
+      // const data = await response.json();
     } catch (error) {
       notify("ERROR");
     }
